@@ -7,6 +7,7 @@
     "glogin": "clasp login",
     "glogout": "clasp logout",
     "gcreate": "clasp create --title 'Career Page' --rootDir ./apps-script",
+    "gclone":"clasp clone 1Oj4EJ-Jc1gCFuNJ5wbQpxyZfuhcQZG7MkksMdVB4waA6MUCssELwgUL7 --rootDir ./apps-script",
     "gpull": "clasp pull",
     "gpush": "clasp push",
     "gstart": "clasp push --watch",
