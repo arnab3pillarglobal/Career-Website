@@ -21,6 +21,11 @@ function App() {
         <li key={i.jobs}>{i.jobs}</li>
       )):""}
     </ul>
+    <select>
+      {data.data?data.data.map((item,index) => (
+        <option key={index} value={item.jobs}>{item.jobs}</option>
+      )):""}
+    </select>
   </div>
   );
 }
