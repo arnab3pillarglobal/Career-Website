@@ -45,8 +45,8 @@ function App() {
   }
 
   return (
-    <>
-      <h1>Navigate to desired job profile</h1>
+    <div>
+    <h2 className="heading">Navigate to your desired job profile</h2>
     <FilteringComponent 
       name="JobDiscipline" 
       data={jobDisciplineOptions} 
@@ -62,7 +62,7 @@ function App() {
         selectedValue={jobFamily}/>
       )
     }
-    </>
+    </div >
   );
 };
 

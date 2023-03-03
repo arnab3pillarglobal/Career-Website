@@ -34,4 +34,10 @@ code {
 .description {
   display: inline-block;
   width: 500px;
+  margin: 20px 10px 0;
+}
+
+.heading {
+  font-weight: normal;
+  text-align: center;
 }
